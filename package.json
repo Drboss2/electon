@@ -13,7 +13,7 @@
   "build": {
     "appId": "com.tcgliveweb.app",
     "productName": "tcgliveweb.app",
-    "publish": "never",  
+    "publish": null,  
     "files": [
       "**/*",
       "!dist/",
