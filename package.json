@@ -2,7 +2,7 @@
   "name": "Tcgliveweb.app",
   "version": "1.0.0",
   "description": "",
-   "author": "Tcgliveweb",
+  "author": "Tcgliveweb",
 
   "main": "main.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "build": {
     "appId": "com.tcgliveweb.app",
     "productName": "tcgliveweb.app",
+    "publish": "never",  
     "files": [
       "**/*",
       "!dist/",
