@@ -2,6 +2,8 @@
   "name": "Tcgliveweb.app",
   "version": "1.0.0",
   "description": "",
+   "author": "Tcgliveweb",
+
   "main": "main.js",
   "scripts": {
     "start": "electron .",
