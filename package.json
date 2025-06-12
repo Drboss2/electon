@@ -1,9 +1,8 @@
 {
-  "name": "Tcgliveweb.app",
+  "name": "tcgliveweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tcgliveweb Electron App",
   "author": "Tcgliveweb",
-
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -12,25 +11,27 @@
   },
   "build": {
     "appId": "com.tcgliveweb.app",
-    "productName": "tcgliveweb.app",
-    "publish": null,  
+    "productName": "tcgliveweb",
+    "publish": null,
     "files": [
       "**/*",
       "!dist/",
-      "!node_modules/.cache/"
+      "!node_modules/.cache/",
+      "!.git/",
+      "!.github/",
+      "!*.log"
     ],
     "directories": {
       "output": "dist"
     },
     "win": {
       "target": "nsis",
-       "icon": "assets/favico.ico" 
-
+      "icon": "assets/favico.ico"
     },
     "mac": {
       "target": "dmg",
-      "icon": "assets/favico.icns"
-
+      "icon": "assets/favico.icns",
+      "identity": null
     }
   },
   "devDependencies": {
