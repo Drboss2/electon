@@ -26,11 +26,16 @@
     },
     "win": {
       "target": "nsis",
-      "icon": "assets/favico.ico"
+      "icon": "assets/favicon.ico"
     },
     "mac": {
-      "target": "dmg",
-      "icon": "assets/favico.icns",
+    "target": [
+      {
+        "target": "dmg",
+        "arch": ["universal"]
+      }
+      ],
+      "icon": "assets/favicon.icns",
       "identity": null
     }
   },
